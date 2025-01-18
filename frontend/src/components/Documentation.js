@@ -34,6 +34,18 @@ function Documentation() {
         <strong>Debug Mode:</strong> Enable debug logs to troubleshoot issues:
         <div class="command-block">secure-scan --debug</div>
       </li>
+      <li>
+        <strong>Security Check: </strong> Runs a check on your code to reduce the amount of possible malicious code and provides a rating on how safe the code is:
+        <div class="command-block">secure-scan secure-check</div>
+      </li>
+      <li>
+        <strong>Create .gitIgnore and .env: </strong> Automatically creates a git ignore and and an .env with necessary elements:
+        <div class="command-block">secure-scan -e</div>
+      </li>
+      <li>
+        <strong> List of commands: </strong> Creates a list of all commands:
+        <div class="command-block">secure-scan -help</div>
+      </li>
     </ul>
   </li>
 </ul>

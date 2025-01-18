@@ -49,14 +49,14 @@ function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Repo 1
+          Project Github
         </a>
         <a
-          href="https://github.com/username/repo2"
+          href="https://www.apigonekaboomhelp.us"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Repo 2
+          Website Repo
         </a>
       </div>
     </div>
