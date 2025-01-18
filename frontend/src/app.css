@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* Container styles */
+.container {
+    max-width: 825px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Logo styles */
+  .logo-img {
+    max-width: 400px; /* Adjust the size of your logo */
+    margin-bottom: -1rem; /* Adjust spacing below the logo */
+  }
+  
+  /* Description styles */
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 0; /* Ensure no extra margin above */
+    margin-bottom: 1.5rem; /* Space below description */
+  }
+  
+  /* Button group */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  /* Buttons */
+  .button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Feature list */
+  .feature-list {
+    text-align: left;
+    margin-top: 2rem;
+    line-height: 1.7;
+  }
+  
+  .feature-list h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .feature-list ul {
+    list-style: disc;
+    padding-left: 1.5rem; /* Add indentation for list */
+  }
+  
+  /* GitHub links */
+  .github-links {
+    margin-top: 2rem;
+  }
+  
+  .github-links h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .github-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .github-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .sample {
+    display: block;
+    width: 600px;
+    height: auto;
+    margin: 1rem auto
+  }
+
+  .command-block {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: monospace;
+    color: #333;
+  }
+  .section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+  }
