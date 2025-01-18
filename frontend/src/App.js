@@ -16,19 +16,19 @@ function App() {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "16px 32px",
+    padding: "1rem 2rem",
     backgroundColor: "#f8f8f8",
     borderBottom: "1px solid #ccc",
   };
 
   const logoContainerStyle = {
     display: "flex",
-    alignItems: "center", 
-    gap: "8px", 
+    alignItems: "center",
+    gap: "0.5rem",
   };
 
   const logoStyle = {
-    width: "20px", 
+    width: "20px",
     height: "20px",
   };
 
@@ -40,12 +40,6 @@ function App() {
     padding: 0,
   };
 
-  const linkStyle = {
-    textDecoration: "none",
-    color: "#333",
-    fontWeight: "bold",
-  };
-
   return (
     <Router>
       <nav style={navbarStyle}>
@@ -55,12 +49,12 @@ function App() {
         </div>
         <ul style={navLinksStyle}>
           <li>
-            <Link to="/" className="nav-link" style={linkStyle}>
+            <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/documentation" className="nav-link" style={linkStyle}>
+            <Link to="/documentation" className="nav-link">
               Documentation
             </Link>
           </li>
