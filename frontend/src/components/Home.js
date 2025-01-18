@@ -45,14 +45,14 @@ function Home() {
       <div className="github-links">
         <h4>Check us out on GitHub:</h4>
         <a
-          href="https://github.com/username/repo1"
+          href="https://github.com/joeyhlu/uofthacks"
           target="_blank"
           rel="noopener noreferrer"
         >
           Project Github
         </a>
         <a
-          href="https://www.apigonekaboomhelp.us"
+          href="https://github.com/joeyhlu/UofthacksWebsite"
           target="_blank"
           rel="noopener noreferrer"
         >
